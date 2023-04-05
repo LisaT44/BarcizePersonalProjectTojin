@@ -38,6 +38,7 @@ public class PlayerControllerX : MonoBehaviour
         {
             playerRb.AddForce(Vector3.up * floatForce * Time.deltaTime, ForceMode.Impulse);
         }
+
     }
 
     private void OnCollisionEnter(Collision other)
